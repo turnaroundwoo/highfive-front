@@ -5,19 +5,21 @@ const Header = ( props ) => {
         <header id="headerType" className={`header__wrap ${props.element}`}>
             <div className="header__inner">
                 <div className="header__logo">
-                    <a href="/">web <em>site</em></a>
+                    <a href="/">Highfive 🙌🏻 {/* <em>site</em> */}</a>
                 </div>
                 <nav className="header__menu">
                     <ul>
-                        <li><a href="/">헤더 영역</a></li>
-                        <li><a href="/">슬라이드 영역</a></li>
-                        <li><a href="/">배너 영역</a></li>
-                        <li><a href="/">컨텐츠 영역</a></li>
-                        <li><a href="/">푸터 영역</a></li>
+                        <li><a href="/">마이 페이지</a></li>
+                        <li><a href="/">장바구니</a></li>
+                        <li><a href="/">공지사항</a></li>
                     </ul>
                 </nav>
                 <div className="header__member">
                     <a href="/">로그인</a>
+
+                </div>
+                <div className="header__member">
+                <a href="/">회원가입</a>
                 </div>
             </div>
         </header>

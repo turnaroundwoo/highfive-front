@@ -4,6 +4,7 @@ import './assets/css/reset.css'
 import './assets/css/style.css'
 
 import Header from './components/Header'
+import SearchBar from './components/SearchBar'
 import Main from './components/Main'
 import Footer from './components/Footer'
 import Slider from './components/Slider'
@@ -17,6 +18,7 @@ const App = () => {
     return (
         <>
             <Header element="nexon" />
+            <SearchBar />
             <Main>
                 <Slider element="nexon" />
                 <Image element="section nexon" title="포트폴리오가 실력이다." />
